@@ -18,10 +18,10 @@ after_success:
  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 
 #push those images to docker hub
-  - docker push multi-client
-  - docker push multi-nginx 
-  - docker push multi-server
-  - docker push multi-worker
+  # - docker push multi-client
+  # - docker push multi-nginx 
+  # - docker push multi-server
+  # - docker push multi-worker
 
 #deploy to aws elasticbeanstalk
 # deploy:
