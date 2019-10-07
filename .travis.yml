@@ -32,7 +32,7 @@ deploy:
     secure: $AWS_SECRET_KEY
   region: us-east-1
   app: multi-container-docker
-  env: multi-container-docker-env
+  env: MultiContainerDocker-env
   bucket_name: elasticbeanstalk-us-east-1-658939246822
   bucket_path: docker-multi
   on:
