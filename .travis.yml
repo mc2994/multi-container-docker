@@ -25,6 +25,7 @@ after_success:
 
 #deploy to aws elasticbeanstalk
 deploy:
+  edge: true
   provider: elasticbeanstalk
   access_key_id:
     secure: $AWS_ACCESS_KEY
